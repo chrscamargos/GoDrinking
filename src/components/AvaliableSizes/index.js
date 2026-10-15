@@ -8,10 +8,13 @@ export const AvaliableSizes = () => {
     return(
         <View style={styles.containerAvaliableSizes}>
             <Text style={styles.textTitle}>Tamanhos <Text style={styles.textHighLight}>Disponíveis</Text></Text>
-            <ScrollView horizontal>
+            <ScrollView horizontal contentContainerStyle={styles.scrollView}>
                 <CardSize image={Product_TNT} amount="269" measure="ml"/>
                 <CardSize image={Product_TNT} amount="269" measure="ml"/>
                 <CardSize image={Product_TNT} amount="269" measure="ml"/>
+                <CardSize image={Product_TNT} amount="269" measure="ml"/>
+                <CardSize image={Product_TNT_Bottle} amount="1" measure="L"/>
+                <CardSize image={Product_TNT_Bottle} amount="1" measure="L"/>
                 <CardSize image={Product_TNT_Bottle} amount="1" measure="L"/>
             </ScrollView>
         </View>
