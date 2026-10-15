@@ -2,8 +2,8 @@ import { Image, Text, View } from "react-native"
 import logo from "../../assets/images/logo.png"
 import { styles } from "./style"
 import {useFonts} from 'expo-font'
-import { fonts } from "../../themes/fonts"
 import { OurOffers } from "../../components/OurOffers"
+import { AvaliableSizes } from "../../components/AvaliableSizes"
 
 export const HomeScreen = () => {
     useFonts ({
@@ -14,6 +14,7 @@ export const HomeScreen = () => {
         <View style={styles.containerHomeScreen}>
             <Image source={logo} style={styles.logoHome}/>
             <OurOffers/>
+            <AvaliableSizes/>
         </View>
     )
 }
