@@ -7,6 +7,7 @@ export const colors = {
     colorVibrantViolet: "#5b00aa",
     colorRoyalPurple: "#7600b4",
     colorDarkPurple: "#0c001a",
+    colorVibrantPink: "#c531d0",
 
     // ----------- terciary -----------
     colorIndigo: "#4831c5",
