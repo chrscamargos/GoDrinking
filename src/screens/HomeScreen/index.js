@@ -1,9 +1,10 @@
-import { Image, Text, View } from "react-native"
+import { Image, ScrollView, Text, View } from "react-native"
 import logo from "../../assets/images/logo.png"
 import { styles } from "./style"
 import {useFonts} from 'expo-font'
 import { OurOffers } from "../../components/OurOffers"
 import { AvaliableSizes } from "../../components/AvaliableSizes"
+import { OurHighlights } from "../../components/OurHighlights"
 
 export const HomeScreen = () => {
     useFonts ({
@@ -11,10 +12,12 @@ export const HomeScreen = () => {
     })
 
     return(
-        <View style={styles.containerHomeScreen}>
+        <ScrollView contentContainerStyle={styles.containerHomeScreen}>
             <Image source={logo} style={styles.logoHome}/>
             <OurOffers/>
             <AvaliableSizes/>
-        </View>
+            <OurHighlights/>
+
+        </ScrollView>
     )
 }
