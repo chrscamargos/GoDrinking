@@ -15,5 +15,8 @@ export const styles = StyleSheet.create({
         fontFamily: fonts.fontBody,
         fontSize: 20,
         textAlign:"center"
+    },
+    teste:{
+        color: colors.colorWhite
     }
 })
