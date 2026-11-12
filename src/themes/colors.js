@@ -20,4 +20,5 @@ export const colors = {
     // ----------- neutral -----------
     colorWhite: "#ffffff",
     colorGray: "#cbcbcb",
+    colorBlack: "#000",
 }
