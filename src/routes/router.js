@@ -10,7 +10,7 @@ export const AppRouter = () => {
 
     return(
         <NavigationContainer>
-            <Stack.Navigator>
+            <Stack.Navigator initialRouteName="start" screenOptions={{headerShown: false}}>
                 <Stack.Screen name="start" component={StartScreen} />
                 <Stack.Screen name="home" component={HomeScreen} />
                 <Stack.Screen name="products" component={ProductsScreen} />
